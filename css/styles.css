@@ -1,1 +1,30 @@
-/*This file is for your custom css.  All yours*/
+body {
+  background-image: url(../img/cork-board.jpg);
+}
+
+.container {
+  height: 90em;
+  position: relative;
+}
+
+#polaroid {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#donald {
+  position: absolute;
+  top: 18.5%;
+  right: 24.5%;
+}
+
+#red-pin {
+  position: absolute;
+  top: 3.5%;
+  right: 66.5%;
+  z-index: 25;
+}
